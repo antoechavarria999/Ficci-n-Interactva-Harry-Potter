@@ -1,0 +1,78 @@
+/* ===== Estilos generales ===== */
+/* Fondo negro profundo, sin márgenes */
+body {
+  background-color: #0F0F12;
+  margin: 0;
+}
+
+/* Contenedor centrado: ancho máximo 800px y padding de 40px */
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Título del nodo: Playfair Display, 48px, dorado, centrado */
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  color: #D4AF37;
+  text-align: center;
+}
+
+/* Subtítulos: Playfair Display, 28px, gris cálido */
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #B8B3A7;
+}
+
+/* Texto narrativo: Lato, 18px, interlineado 1.7 */
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #E8E4DC;
+  line-height: 1.7;
+}
+
+/* Enlaces: dorado, negrita, sin subrayado */
+a {
+  font-family: "Lato", sans-serif;
+  color: #D4AF37;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* Hover: rojo y subrayado, con transición suave de 0.3s */
+a:hover {
+  color: #E63946;
+  text-decoration: underline;
+}
+
+/* Imagen: responsive y centrada */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Video embebido centrado */
+.video {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* El iframe no se desborda en pantallas chicas */
+.video iframe {
+  max-width: 100%;
+}
+
+/* Pie de página con línea dorada */
+footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #D4AF37;
+  text-align: center;
+}
